@@ -25,13 +25,12 @@ if __name__ == "__main__":
     end_time = time.time()
     print("Multiprocessing time =", end_time - start_time)
 
-    # Reset jobs list for threading
     jobs = []
     threads = 10
     start_time = time.time()
     for i in range(threads):
         out_list = list()
-        thread = threading.Thread(target=work, args=(size, out_list))  # Corrected to pass the function reference
+        thread = threading.Thread(target=work, args=(size, out_list))  
         jobs.append(thread)
 
     for l in jobs:
