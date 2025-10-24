@@ -4,7 +4,7 @@ import threading
 
 if __name__ == "__main__":
     size = 10000000
-    counts = [5, 10, 15]
+    counts = [5]
 
     print("\nSemaphore")
     for threads in counts:
