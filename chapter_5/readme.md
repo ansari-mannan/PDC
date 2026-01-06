@@ -26,7 +26,8 @@ Another More Contextful and easy to understand example for event loops is the us
 
 ![Example 4](image-3.png)
 
-Future Pooling:
+## Future Pooling
+
 It is the same concept as Process Pooling, futures pooling is a way to run many tasks efficiently by submitting them to a managed pool of threads or processes and receiving their results through Future objects.
 
 A Comparison between some concurrency techniques and Future Pooling is given as follows:
